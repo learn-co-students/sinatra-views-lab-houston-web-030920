@@ -2,6 +2,7 @@ require_relative '../config/environment.rb'
 require 'rack/test'
 RACK_ENV = "test"
 ENV["RACK_ENV"] = "test"
+require 'date'
 
 RSpec.configure do |config|
 	config.run_all_when_everything_filtered = true
